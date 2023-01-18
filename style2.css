@@ -1,0 +1,14 @@
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 5px;
+}
+
+th{
+    background-color: coral;
+}
+
+td{
+    background-color: cornflowerblue;
+}

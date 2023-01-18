@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide Master | Home</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
+    <link rel="manifest" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="main_heading">Guide Master</h1>
+        </header>
+        <div id="nav" class="nav">
+             <a class="a" href="home.html">Home</a>
+                <select name="Resturants" required>
+                    <option value="">Resturants</option>
+                    <option value="Delivery">Delivery</option>
+                    <option value="Chinese">Chinese</option>
+                    <option value="Burgers & Pizza">Burgers & Pizza</option>
+                    <option value="Italian">Italian</option>
+                    <option value="Thai">Thai</option>
+                    <option value="Reservation">Reservation</option>
+
+                </select> 
+            <select name="Home services" required>
+                <option value="">Home services</option>
+                <option value="Contractors">Contractors</option>
+                <option value="Electricians">Electricians</option>
+                <option value="Land Scaping">Land Scaping</option>
+                <option value="Home Cleaners">Home Cleaners</option>
+                <option value="Plumbers">Plumbers</option>
+
+            </select>    
+            <select name="Auto Services" required>
+                <option value="">Auto Services</option>
+                <option value="Auto Repair">Auto Repair</option>
+                <option value="Car Wash">Car Wash</option>
+                <option value="Oil Change">Oil Change</option>
+                <option value="Towing">Towing</option>
+                <option value="Car Dealers">Car Dealers</option>
+                <option value="Body Shops">Body Shops</option>
+            </select>  
+            <select name="More" required>
+                <option value="">More</option>
+                <option value="Phone Repair">Phone Repair</option>
+                <option value="shopping">shopping</option>
+                <option value="Hair Salons">Hair Salons</option>
+                <option value="Dry Cleaning">Dry Cleaning</option>
+                <option value="Gyms">Gyms</option>
+                <option value="Massage">Massage</option>
+                <option value="Bars">Bars</option>
+                <option value="Nightlife">Nightlife</option>
+                
+            </select>    
+            <a href="review.html" class="flex-align-left">write a review</a>
+            <!-- Button to open the modal login form -->
+            <button class="flex-align-right" onclick="document.getElementById('id01').style.display='block'">Login/signup</button>
+            <!-- The Modal -->
+            <div id="id01" class="modal">
+                <span onclick="document.getElementById('id01').style.display='none'"
+                class="close" title="Close Modal">&times;</span>
+                <!-- Modal Content -->
+                <form class="modal-content animate" action="/action_page.ph">
+                    <div class="imgcontainer">
+                        <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
+                    </div>
+                    <div class="container">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <button type="submit">Login</button>
+                        <button type="submit"> signup</button>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                    </div>
+                    <div class="container" style="background-color:#f1f1f1">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                        <span class="psw">Forgot password?</span>
+                    </div>
+                </form>
+            </div>
+            <class="topnav">
+                <input type="text"  placeholder="Search..">
+        </div>
+        </p>
+        <main>
+            <h1> Dial Up Your <br> Comfort</h1>
+            <section>
+                <h2>videos</h2>
+                <iframe width="32%" height="315" src="https://www.youtube.com/embed/xPPLbEFbCAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="32%" height="315" src="https://www.youtube.com/embed/G1Bl_cy0svM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="32%" height="315" src="https://www.youtube.com/embed/8WfNcbHe824" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+            <section>
+                <h2>Catogaries</h2>
+                <a class="c" target="_blank" href="https://www.justdial.com/Haldia/Restaurants-in-Haldia-Township/nct-10408936"><img src="img/resturants.png" width="22%" height="30%"></a>
+                <a class="c" target="_blank" href="https://www.justdial.com/Haldia/Night-Clubs/nct-10337610"><img src="img/nightlife.png " width="22%" height="30%"></a>
+                <a class="c" target="_blank" href="https://www.justdial.com/Haldia/Malls/nct-10310530"><img src="img/shopping.jpeg " width="22%" height="30%"></a>
+                <a class="c" target="_blank" href="notes/chem.pdf"><img src="img/activelife.png " width="22%" height="30%"></a>
+                <h5>                                                                                                               </h5>
+                <a class="c" target="_blank" href="https://www.justdial.com/Haldia/Car-Repair-Services/nct-10976632"><img src="img/automotive.png" width="22%" height="30%"></a>
+                <a class="c" target="_blank" href="notes/math.pdf"><img src="img/home service.png" width="22%" height="300%"></a>
+                <a class="c" target="_blank" href="https://www.justdial.com/Haldia/Beauty-Spas/nct-10042600"><img src="img/beauty & sallon.png" width="22%" height="30%"></a>
+                <a class="c" target="_blank" href="notes/chem.pdf"><img src="img/more.png " width="22%" height="30%"></a>
+            </section>
+            <br>
+            <section>
+                <h2>Our developer</h2>
+                <img class="clip_circle" src="img/founder2.jpg" width="7%">
+                <img class="clip_circle" src="img/founder.jpg" width="11%">
+                <img class="clip_circle" src="img/founder4.png" width="9%">
+                <h3><a class="name"> Akshat Thakur | Ankit Kumar |  Bal Mukund</a></h3>
+                <h4> learners and trying to acheive own goals in own life by the help of this digital techknowledge.<br> want to help many needy peoples in his/her journey of success.</h4>
+            </section>
+        </main>
+        <footer>
+            <a href="faq.html">FAQ</a>
+            <a href="contactus.html">Contacts Us</a>
+            <a href="term of use.html">Terms of use</a>
+            <a href="privacy poilicy.html">Privacy Policy</a>
+            <a href="refund poilicy.html">Refund Policy</a>
+            <a href="#">&copy; 2023 | Guide Master</a>
+        </footer>
+    </div>
+</body>
+</html>
